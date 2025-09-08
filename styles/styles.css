@@ -1,0 +1,44 @@
+body{
+    border: 2px solid rgb(108, 108, 108);
+    max-width: 90%;
+    margin: 10px auto;
+}
+
+h1{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+article, section, nav > a, p, h1, h4 {
+    text-align: justify;
+    padding: 0 15px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+#capa {
+    display: flex;
+    justify-content: center;
+}
+
+#dip1 > img{
+    display:flex;
+    justify-content: center;
+    width: fit-content;
+    
+}
